@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|solutionrelative:Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.fragmentShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|solutionrelative:3.3.fragmentShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|solutionrelative:3.3.vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.fragmentShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{C865ACD1-EBA9-4D93-9D4E-41E3D546CFB6}|FirstProject.vcxproj|solutionrelative:3.3.fragmentShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -108,33 +108,33 @@
               "RelativeDocumentMoniker": "Application.cpp",
               "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\Application.cpp",
               "RelativeToolTip": "Application.cpp",
-              "ViewState": "AgIAAGMAAAAA4H0Qcm0YwHQAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAOkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-03T14:21:15.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "3.3.vertexShader.vs",
               "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.vertexShader.vs",
               "RelativeDocumentMoniker": "3.3.vertexShader.vs",
               "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.vertexShader.vs",
               "RelativeToolTip": "3.3.vertexShader.vs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-13T20:47:51.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "3.3.fragmentShader.fs",
               "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.fragmentShader.fs",
               "RelativeDocumentMoniker": "3.3.fragmentShader.fs",
               "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\FirstProject\\3.3.fragmentShader.fs",
               "RelativeToolTip": "3.3.fragmentShader.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-13T20:43:48.147Z",
               "EditorCaption": ""
