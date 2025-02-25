@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\Projects\LearnOpenGL_Projects\LearnOpenGL_Projects\Headers_and_Libraries\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Projects\LearnOpenGL_Projects\LearnOpenGL_Projects\Headers_and_Libraries\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\kabou\Projects\LearnOpenGL_Projects\Headers_and_Libraries\Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\kabou\Projects\LearnOpenGL_Projects\Headers_and_Libraries\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>D:\Projects\LearnOpenGL_Projects\LearnOpenGL_Projects\Headers_and_Libraries\Includes;$(IncludePath)</IncludePath>
@@ -149,6 +149,11 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="image_s.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.3.fragmentShader.fs" />
+    <None Include="3.3.vertexShader.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
