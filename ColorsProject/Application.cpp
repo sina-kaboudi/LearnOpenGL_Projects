@@ -3,12 +3,15 @@
 #include <FirstProject/shader_s.h>
 #include <iostream>
 #include <cmath>
-#include <FirstProject/shader_s.h>
-#include <FirstProject/stb_image.h>
-#include <FirstProject/Camera.h>
+
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+
+#include <FirstProject/shader_s.h>
+#include <FirstProject/stb_image.h>
+#include <FirstProject/Camera.h>
+#include <FirstProject/Model.h>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -65,6 +68,9 @@ int main()
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
+
+    stbi_set_flip_vertically_on_load(true);
+
 
     // configure global opengl state
     // -----------------------------
@@ -194,6 +200,8 @@ int main()
     lightingShader.setInt("material.specular", 1);
     lightingShader.setInt("material.emission", 2);
 
+    Model ourModel("../Models_with_Textures/backpack.obj");
+
     // render loop
     // -----------
     while (!glfwWindowShouldClose(window))
@@ -280,9 +288,9 @@ int main()
         lightingShader.setVec3("spotLight.specular", lightColor);
 
         lightingShader.setVec3("dirLight.direction", camera.Front);
-        lightingShader.setVec3("dirLight.ambient", ambientColor);
-        lightingShader.setVec3("dirLight.diffuse", diffuseColor);
-        lightingShader.setVec3("dirLight.specular", lightColor);
+        lightingShader.setVec3("dirLight.ambient", glm::vec3(1.0f));
+        lightingShader.setVec3("dirLight.diffuse", glm::vec3(0.0f));
+        lightingShader.setVec3("dirLight.specular", glm::vec3(0.0f));
 
 
         // view/projection transformations
@@ -294,24 +302,31 @@ int main()
 
 
         // render boxes
-        glBindVertexArray(cubeVAO);
-        for (unsigned int i = 0; i < 10; i++)
-        {
-            // calculate the model matrix for each object and pass it to shader before drawing
-            glm::mat4 model = glm::mat4(1.0f); // make sure to initialize matrix to identity matrix first
-            model = glm::translate(model, cubePositions[i]);
-            float angle = 20.0f * i;
-            model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
-            lightingShader.setMat4("model", model);
+        //glBindVertexArray(cubeVAO);
+        //for (unsigned int i = 0; i < 10; i++)
+        //{
+        //    // calculate the model matrix for each object and pass it to shader before drawing
+        //    glm::mat4 model = glm::mat4(1.0f); // make sure to initialize matrix to identity matrix first
+        //    model = glm::translate(model, cubePositions[i]);
+        //    float angle = 20.0f * i;
+        //    model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
+        //    lightingShader.setMat4("model", model);
 
-            glm::mat3 normalModel = model;
-            normalModel = glm::inverse(normalModel);
-            normalModel = glm::transpose(normalModel);
-            lightingShader.setMat3("normalModel", normalModel);
+        //    glm::mat3 normalModel = model;
+        //    normalModel = glm::inverse(normalModel);
+        //    normalModel = glm::transpose(normalModel);
+        //    lightingShader.setMat3("normalModel", normalModel);
 
-            glDrawArrays(GL_TRIANGLES, 0, 36);
-        }
+        //    glDrawArrays(GL_TRIANGLES, 0, 36);
+        //}
 
+
+        // render the loaded model
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f)); // translate it down so it's at the center of the scene
+        model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));	// it's a bit too big for our scene, so scale it down
+        lightingShader.setMat4("model", model);
+        ourModel.Draw(lightingShader);
 
         // also draw the lamp objects
         lightCubeShader.use();
@@ -319,15 +334,15 @@ int main()
         lightCubeShader.setMat4("view", view);
         lightCubeShader.setVec3("lightColor", glm::vec3(1.0f));
 
-        glBindVertexArray(lightCubeVAO);
-        for (unsigned int i = 0; i < 4; i++)
-        {
-            glm::mat4 model = glm::mat4(1.0f);
-            model = glm::translate(model, pointLightPositions[i]);
-            model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
-            lightCubeShader.setMat4("model", model);
-            glDrawArrays(GL_TRIANGLES, 0, 36);
-        }
+        //glBindVertexArray(lightCubeVAO);
+        //for (unsigned int i = 0; i < 4; i++)
+        //{
+        //    glm::mat4 model = glm::mat4(1.0f);
+        //    model = glm::translate(model, pointLightPositions[i]);
+        //    model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
+        //    lightCubeShader.setMat4("model", model);
+        //    glDrawArrays(GL_TRIANGLES, 0, 36);
+        //}
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------

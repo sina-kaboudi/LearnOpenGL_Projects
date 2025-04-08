@@ -13,6 +13,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFC7CAB6-1B06-4B1C-B07A-A07FECBD9535}|ColorsProject.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\ColorsProject\\3.3.vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{EFC7CAB6-1B06-4B1C-B07A-A07FECBD9535}|ColorsProject.vcxproj|solutionrelative:3.3.vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,13 +108,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.h",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Model.h",
+              "RelativeDocumentMoniker": "..\\Headers_and_Libraries\\Includes\\FirstProject\\Model.h",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Model.h",
+              "RelativeToolTip": "..\\Headers_and_Libraries\\Includes\\FirstProject\\Model.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-04T11:10:33.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Mesh.h",
+              "RelativeDocumentMoniker": "..\\Headers_and_Libraries\\Includes\\FirstProject\\Mesh.h",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\Headers_and_Libraries\\Includes\\FirstProject\\Mesh.h",
+              "RelativeToolTip": "..\\Headers_and_Libraries\\Includes\\FirstProject\\Mesh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-31T14:22:01.22Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\ColorsProject\\Application.cpp",
               "RelativeDocumentMoniker": "Application.cpp",
               "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\ColorsProject\\Application.cpp",
               "RelativeToolTip": "Application.cpp",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAgwBwBAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAUwEMBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-13T15:11:42.689Z",
               "EditorCaption": ""
@@ -121,10 +151,9 @@
               "RelativeDocumentMoniker": "3.3.fragmentShader.fs",
               "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\ColorsProject\\3.3.fragmentShader.fs",
               "RelativeToolTip": "3.3.fragmentShader.fs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAgwEsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-14T17:01:43.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:01:43.503Z"
             },
             {
               "$type": "Document",

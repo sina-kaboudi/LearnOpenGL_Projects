@@ -1,3 +1,6 @@
 ﻿  Application.cpp
-C:\Users\kabou\Projects\LearnOpenGL_Projects\ColorsProject\Application.cpp(233,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabou\Projects\LearnOpenGL_Projects\Headers_and_Libraries\Includes\FirstProject\Mesh.h(93,43): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  (compiling source file 'Application.cpp')
+  
+C:\Users\kabou\Projects\LearnOpenGL_Projects\ColorsProject\Application.cpp(241,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   ColorsProject.vcxproj -> C:\Users\kabou\Projects\LearnOpenGL_Projects\ColorsProject\x64\Debug\ColorsProject.exe
