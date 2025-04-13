@@ -1,0 +1,5 @@
+﻿  Application.cpp
+C:\Users\kabou\Projects\LearnOpenGL_Projects\Headers_and_Libraries\Includes\FirstProject\Mesh.h(93,43): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  (compiling source file 'Application.cpp')
+  
+  AdvancedOpenGL_Project.vcxproj -> C:\Users\kabou\Projects\LearnOpenGL_Projects\AdvancedOpenGL_Project\x64\Debug\AdvancedOpenGL_Project.exe
