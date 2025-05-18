@@ -144,6 +144,8 @@
   <ItemGroup>
     <None Include="1.1.depth_testing.fs" />
     <None Include="1.1.depth_testing.vs" />
+    <None Include="FrameBuffer.fs" />
+    <None Include="FrameBuffer.vs" />
     <None Include="shaderSingleColor.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

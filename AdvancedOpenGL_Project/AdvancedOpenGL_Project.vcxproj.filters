@@ -29,5 +29,7 @@
     <None Include="1.1.depth_testing.fs" />
     <None Include="1.1.depth_testing.vs" />
     <None Include="shaderSingleColor.fs" />
+    <None Include="FrameBuffer.vs" />
+    <None Include="FrameBuffer.fs" />
   </ItemGroup>
 </Project>
