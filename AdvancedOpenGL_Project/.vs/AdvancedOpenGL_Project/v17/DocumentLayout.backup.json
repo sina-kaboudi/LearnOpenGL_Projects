@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:FrameBuffer.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:1.1.depth_testing.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:FrameBuffer.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:1.1.depth_testing.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\shaderSingleColor.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{1A92F9FF-1AFD-4EFF-A8F6-729A31E4E15B}|AdvancedOpenGL_Project.vcxproj|solutionrelative:shaderSingleColor.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrameBuffer.fs",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.fs",
+              "RelativeDocumentMoniker": "FrameBuffer.fs",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.fs",
+              "RelativeToolTip": "FrameBuffer.fs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T13:57:28.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrameBuffer.vs",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.vs",
+              "RelativeDocumentMoniker": "FrameBuffer.vs",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\FrameBuffer.vs",
+              "RelativeToolTip": "FrameBuffer.vs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T13:57:13.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\Application.cpp",
+              "RelativeDocumentMoniker": "Application.cpp",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\Application.cpp",
+              "RelativeToolTip": "Application.cpp",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAQwAwBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-21T10:49:27.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "shaderSingleColor.fs",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\shaderSingleColor.fs",
+              "RelativeDocumentMoniker": "shaderSingleColor.fs",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\shaderSingleColor.fs",
+              "RelativeToolTip": "shaderSingleColor.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-17T16:03:20.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "1.1.depth_testing.fs",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.fs",
+              "RelativeDocumentMoniker": "1.1.depth_testing.fs",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.fs",
+              "RelativeToolTip": "1.1.depth_testing.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-17T15:59:13.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "1.1.depth_testing.vs",
+              "DocumentMoniker": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.vs",
+              "RelativeDocumentMoniker": "1.1.depth_testing.vs",
+              "ToolTip": "C:\\Users\\kabou\\Projects\\LearnOpenGL_Projects\\AdvancedOpenGL_Project\\1.1.depth_testing.vs",
+              "RelativeToolTip": "1.1.depth_testing.vs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-13T08:33:20.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1161,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 3428,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
